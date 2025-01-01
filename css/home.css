@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+}
+
+#blurb {
+    background-color: #150640;
+    margin: 3rem;
+    padding: 3rem; 
+    font-size: 3rem;
+    width: 19rem;
+    text-align: center;
+}

@@ -8,17 +8,21 @@ body {
 
 /* header style */
 #header {
-    padding: 1.5rem 0 1.25rem 0;
+    padding: 1.5rem 0 2rem 0;
     overflow: hidden;
     border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom-width: .05rem;
     border-bottom-color: #A6AEDB;
-    font-size: 32px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .title-logo {
     float:left;
 }
+ .title-logo img {
+    width: 7rem;
+ }
 
 .section-navigation {
     float:right;
@@ -31,7 +35,7 @@ body {
 
 .section-navigation ul li {
     display: inline;
-    padding: 0 10px;
+    padding: 0 1rem;
 }
 
 @media screen and (max-width: 500px) {
