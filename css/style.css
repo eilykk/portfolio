@@ -38,6 +38,27 @@ body {
     padding: 0 1rem;
 }
 
+.section-navigation ul li a{
+    color: #A6AEDB;
+    text-decoration: none;
+    position: relative;
+}
+
+.section-navigation ul li a::after{
+    content: '';
+    width: 0;
+    height: 0.1rem;
+    background: #6E68BB;
+    left: 0;
+    bottom: -0.3rem;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.section-navigation ul li a:hover::after{
+    width:100%;
+}
+
 @media screen and (max-width: 500px) {
     .title-logo {
       float: none;

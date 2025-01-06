@@ -1,12 +1,16 @@
-.wrapper {
-    display: flex;
+/*  home page  */
+#blurb {
+    font-size: 2.75rem;
+    margin: 15% 2rem 2.5rem 6%;
 }
 
-#blurb {
-    background-color: #150640;
-    margin: 3rem;
-    padding: 3rem; 
-    font-size: 3rem;
-    width: 19rem;
-    text-align: center;
+#titles {
+    font-family: "Geostar Fill", serif;
+    font-size: 2rem;
+    margin-left: 6%;
+    color: #6E68BB;
+}
+/*  about section  */
+#about{
+    padding: 3rem 0;
 }
