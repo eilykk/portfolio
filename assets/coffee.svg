@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="152.62791mm"
+   height="124.45047mm"
+   viewBox="0 0 152.62791 124.45047"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="aboutus.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.74564394"
+     inkscape:cx="396.97231"
+     inkscape:cy="545.16637"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <rect
+       x="-61.691643"
+       y="514.99109"
+       width="174.34595"
+       height="197.14503"
+       id="rect13" />
+    <rect
+       x="280.29465"
+       y="616.91644"
+       width="280.29465"
+       height="89.855217"
+       id="rect11" />
+  </defs>
+  <g
+     inkscape:label="coffeee"
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:export-filename="coffee.png"
+     inkscape:export-xdpi="96"
+     inkscape:export-ydpi="96"
+     transform="translate(-38.015592,-13.532842)">
+    <g
+       id="g2"
+       transform="translate(50.032258,-70.967742)"
+       inkscape:label="coffee"
+       sodipodi:insensitive="true">
+      <ellipse
+         style="fill:#80530d;fill-opacity:1;stroke:#a6aedb;stroke-width:12.7853;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         id="path1"
+         cx="49.372444"
+         cy="146.72581"
+         rx="54.996464"
+         ry="55.832581" />
+      <path
+         style="fill:#a6aedb;fill-opacity:1;stroke:#a6aedb;stroke-width:12.1973;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+         d="m 134.51259,139.45275 v 13.33802 l -28.76889,0.70199 v -16.146 z"
+         id="path2" />
+      <ellipse
+         style="fill:#201100;fill-opacity:1;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"
+         id="path4"
+         ry="44.368141"
+         rx="44.241978"
+         cy="147.47595"
+         cx="49.463509" />
+      <path
+         id="path8"
+         style="fill:#80530d;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"
+         d="m 51.812387,102.93052 c 2.324495,9.89131 -1.887688,20.64236 -11.215972,28.62732 -9.328288,7.98496 -22.529224,12.13944 -35.1507676,11.06234 0,0 -4.56360265,-16.28072 8.1549986,-27.66597 14.721085,-12.60561 38.211741,-12.02369 38.211741,-12.02369 z"
+         sodipodi:nodetypes="csccc" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="sticker"
+     sodipodi:insensitive="true"
+     transform="translate(-38.015592,-13.532842)">
+    <g
+       id="g10"
+       inkscape:export-filename="sticker.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <rect
+         style="fill:#00274c;fill-opacity:1;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"
+         id="rect9"
+         width="133.93916"
+         height="41"
+         x="23.139933"
+         y="150.73396" />
+      <rect
+         style="fill:#eff7ff;fill-opacity:1;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"
+         id="rect10"
+         width="36.313587"
+         height="41"
+         x="156.27948"
+         y="150.94231" />
+    </g>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.31101401,0,0,0.4892714,-20.745691,-151.72872)"
+       id="text10"
+       style="font-size:69.3333px;white-space:pre;shape-inside:url(#rect11);display:inline;fill:#eff7ff;fill-opacity:1;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"><tspan
+         x="280.29492"
+         y="686.58785"
+         id="tspan2"><tspan
+           style="font-family:'BIZ UDGothic';-inkscape-font-specification:'BIZ UDGothic'"
+           id="tspan1">EECS 388</tspan></tspan></text>
+    <rect
+       style="fill:#eff7ff;fill-opacity:1;stroke:#3a1a17;stroke-width:0;stroke-linejoin:round"
+       id="rect12"
+       width="0.7096774"
+       height="29.451612"
+       x="61.387093"
+       y="156.48389" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.31636831,0,0,0.34141179,47.677586,-26.022911)"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:'BIZ UDGothic';-inkscape-font-specification:'BIZ UDGothic';white-space:pre;shape-inside:url(#rect13);display:inline;fill:#eff7ff;fill-opacity:1;stroke:#3a1a17;stroke-width:7.55906;stroke-linejoin:round;stroke-dasharray:none"><tspan
+         x="-61.691406"
+         y="611.45898"
+         id="tspan4"><tspan
+           style="font-family:'Book Antiqua';-inkscape-font-specification:'Book Antiqua';fill:#ffcb05;stroke:#ffcb05"
+           id="tspan3">M</tspan></tspan></text>
+    <rect
+       style="fill:#eff7ff;fill-opacity:1;stroke:#00101d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       id="rect14"
+       width="29.80645"
+       height="31.225807"
+       x="159.32257"
+       y="155.7742"
+       ry="5.3225808" />
+    <path
+       style="fill:#00101d;fill-opacity:1;stroke:#00101d;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="m 163.74432,173.78373 9.83777,7.94125 11.93695,-18.33901 -4.1875,-3.83545 -8.93009,14.29967 -5.51502,-5.14656 z"
+       id="path14"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

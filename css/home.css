@@ -9,8 +9,85 @@
     font-size: 2rem;
     margin-left: 6%;
     color: #6E68BB;
+    padding-bottom: 12%;
 }
 /*  about section  */
 #about{
-    padding: 3rem 0;
+    padding: 4rem 0 6rem 0;
+    background-color: #020B31;
+    font-size: 2rem;
+}
+
+#coffee{
+    width:25rem;
+    transform: rotate(20deg);
+    position: absolute;
+    top:54rem;
+
+}
+
+.about-head{
+    font-family: "Geostar Fill", serif;
+    font-size: 3rem;
+    color: #6E68BB;
+    text-align: center;
+    position: relative;
+    left: 10rem;
+}
+
+.description{
+    width: 35%;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    left: 35rem;
+    padding-bottom: 3rem;
+}
+
+#sticker{
+    width:13rem;
+    transform: rotate(-15deg);
+    position: absolute;
+    top:54rem;
+    right:8rem;
+}
+
+#jack {
+    width: 10rem;
+    transform: rotate(10deg);
+    position: absolute;
+    top:75rem;
+    right: 5rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .about-head{
+        left:auto;
+    }
+    #coffee{
+        visibility: hidden;
+    }
+    .description {
+        left:auto;
+        width:auto;
+        padding: 1rem;
+      }
+    #sticker{
+        visibility: hidden;
+    }
+    #jack{
+        visibility: hidden;
+    }
+  }
+
+/* projects section */
+#projects{
+    padding: 4rem 0 6rem 0;
+    background-color: #07030C;
+    font-size: 2rem;
+}
+.projects-head{
+    font-family: "Geostar Fill", serif;
+    font-size: 3rem;
+    color: #6E68BB;
 }
