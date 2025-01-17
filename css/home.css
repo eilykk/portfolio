@@ -23,7 +23,13 @@
     transform: rotate(20deg);
     position: absolute;
     top:54rem;
+    transition: .3s;
+}
 
+#coffee:hover{ 
+    transform: rotate(20deg) 
+    translateX(.5rem) 
+    translateY(-.5rem);
 }
 
 .about-head{
@@ -37,7 +43,7 @@
 
 .description{
     width: 35%;
-    text-align: center;
+    text-align: right;
     position: relative;
     top: 1rem;
     left: 35rem;
@@ -50,6 +56,13 @@
     position: absolute;
     top:54rem;
     right:8rem;
+    transition: .3s;
+}
+
+#sticker:hover{
+    transform: rotate(-15deg)
+    translateX(-.5rem) 
+    translateY(-.5rem);
 }
 
 #jack {
@@ -58,6 +71,13 @@
     position: absolute;
     top:75rem;
     right: 5rem;
+    transition: .3s;
+}
+
+#jack:hover{
+    transform: rotate(10deg)
+    translateX(-.5rem) 
+    translateY(-.5rem);
 }
 
 @media screen and (max-width: 1300px) {
@@ -90,4 +110,20 @@
     font-family: "Geostar Fill", serif;
     font-size: 3rem;
     color: #6E68BB;
+}
+.project-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 1rem;
+    margin-top: 4rem;
+}
+.project{
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.project img{
+    width:25rem;
+    border-radius: 1rem;
+    display: block;
 }
