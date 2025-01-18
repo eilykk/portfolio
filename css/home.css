@@ -102,7 +102,7 @@
 
 /* projects section */
 #projects{
-    padding: 4rem 0 6rem 0;
+    padding: 4rem 2rem 6rem 2rem;
     background-color: #07030C;
     font-size: 2rem;
 }
@@ -113,8 +113,8 @@
 }
 .project-list{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: .5rem;
     margin-top: 4rem;
 }
 .project{
@@ -123,7 +123,7 @@
     overflow: hidden;
 }
 .project img{
-    width:25rem;
+    width:20rem;
     border-radius: 1rem;
     display: block;
 }
