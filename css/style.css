@@ -19,7 +19,7 @@ body {
 .title-logo {
     float:left;
 }
- .title-logo img {
+ .title-logo a img {
     width: 7rem;
  }
 

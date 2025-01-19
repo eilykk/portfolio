@@ -113,8 +113,8 @@
 }
 .project-list{
     display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-gap: .5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 20rem));
+    grid-gap: 2rem;
     margin-top: 4rem;
 }
 .project{
@@ -126,4 +126,58 @@
     width:20rem;
     border-radius: 1rem;
     display: block;
+    transition: .3s;
+}
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.6),#71592B);
+    border-radius: 1rem;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: height .5s;
+}
+.layer h3{
+    margin: .5rem;
+}
+.layer p{
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.layer a{
+    text-decoration:none;
+    color: #A6AEDB;
+}
+.back-end-button{
+    background-color:#320808;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin: .2rem;
+}
+.front-end-button{
+    background-color:#2A042F;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin: .2rem;
+}
+.UI-button{
+    background-color:#0B280A;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: .25rem;
+    margin: .2rem;
+}
+.project:hover img{
+    transform: scale(1.1);
+}
+.project:hover .layer{
+    height: 100%;
 }
