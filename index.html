@@ -42,16 +42,41 @@
     <h1 class="about-head">About Me
       <hr width="20%;" color=#6E68BB size="4">
     </h1>
-      <img id="coffee" src="assets/coffee.svg" alt="cup of coffee">
-      <div class="description">Hello World! I am Kylie Kosek and I go by Kay. 
+    <img id="coffee" src="assets/coffee.svg" alt="cup of coffee">
+    <div id="coffeepopup">  
+      <i id="coffee-close" class="fa-regular fa-circle-xmark"></i><br>
+      I worked as a barista for about a year and a half while in college. It
+      helped me develop my communication skills, multitasking, and efficiency 
+      during stressful, time-sensitive situations. That, and, of course, a 
+      crippling addiction to coffee. 
+    </div>
+    <div class="description">Hello World! I am Kylie Kosek and I go by Kay. 
         I graduated the University of Michigan in December 2024 with a major in
         computer science and a minor in art & design. During my time there,
         I gained experience in many areas of computer science such as 
         front-end, back-end, cybersecurity, database systems, and systems 
         engineering. 
-      </div>
-      <img id="sticker" src="assets/sticker.svg" alt="University of Michigan EECS388 sticker">
-      <img id="jack" src="assets/jack.svg" alt="Jack of all trades playing card">
+        <p class="note">Try clicking on the images to learn more about me!</p>
+    </div>
+    <img id="sticker" src="assets/sticker.svg" alt="University of Michigan EECS388 sticker">
+    <div id="stickerpopup">  
+      <i id="sticker-close" class="fa-regular fa-circle-xmark"></i><br>
+      At the finals of most computer science courses at the University of Michigan,
+      they would give all the students a sticker for completing the course. This
+      sticker I recreated, in particular, was the one I got from taking my cybersecurity 
+      course, EECS388.
+    </div>
+    <img id="jack" src="assets/jack.svg" alt="Jack of all trades playing card">
+    <div id="jackpopup">  
+      <i id="jack-close" class="fa-regular fa-circle-xmark"></i><br>
+      "Jack of all trades is a master of none, but oftentimes better than a master of one." 
+      is a proverb that I stand by. Learning new skills is a skill in itself, and thus, with 
+      every new skill you learn, you are also learning how to better go about getting a hold
+      on something new. There are so many skills and hobbies I have tried, and I definitely 
+      feel it has gotten a lot easier for me to pick up new skills. Sadly, I do not have the
+      time to engage in every hobby, but my main hobbies are crocheting, making jewelry, 
+      weightlifting, piano, sewing, and drawing.  
+    </div>
   </div>
   <!---Portfolio Section-->
   <div id="projects">
@@ -62,7 +87,7 @@
         <div class="layer">
           <h3>Search Engine</h3>
           <p>Scalable search engine similar to Google or Bing</p>
-          <a href="ask485.html">Read More</a>
+          <a href="ask485.html">Read More <i class="fa-solid fa-angle-right"></i></a>
           <div class="tag back-end">
             back-end
           </div>
@@ -74,7 +99,7 @@
         <div class="layer">
           <h3>Essentiallee Free</h3>
           <p>Website for finding free resources in Michigan's Upper Peninsula</p>
-          <a href="essentialleefree.html">Read More</a>
+          <a href="essentialleefree.html">Read More <i class="fa-solid fa-angle-right"></i></a>
           <div class="tag front-end">
             front-end
           </div>
@@ -98,6 +123,43 @@
   <!--Contact Me Section-->
   <div id="contact">
     <h2 class="head">Contact Me</h2>
+    <div class="row">
+      <div class="left-contact">
+        <p><i class="fa-solid fa-envelope"></i> kyliekosek@gmail.com
+        <a href="mailto:kyliekosek@gmail.com"><i class="fa-regular fa-paper-plane">
+        </i></a></p>
+        <p><i class="fa-solid fa-phone"></i> 815-793-4821</p>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/kylie-kosek-76b678299/">
+            <i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/eilykk">
+            <i class="fa-brands fa-square-github"></i></a>
+        </div>
+      </div>
+      <div class="right-contact">
+
+      </div>
+    </div>
   </div>
 </body>
+<script>
+  document.getElementById("coffee").onclick = function(){
+    document.getElementById("coffeepopup").style.visibility = "visible";
+  };
+  document.getElementById("coffee-close").onclick = function(){
+    document.getElementById("coffeepopup").style.visibility = "hidden";
+  };
+  document.getElementById("sticker").onclick = function(){
+    document.getElementById("stickerpopup").style.visibility = "visible";
+  };
+  document.getElementById("sticker-close").onclick = function(){
+    document.getElementById("stickerpopup").style.visibility = "hidden";
+  };
+  document.getElementById("jack").onclick = function(){
+    document.getElementById("jackpopup").style.visibility = "visible";
+  };
+  document.getElementById("jack-close").onclick = function(){
+    document.getElementById("jackpopup").style.visibility = "hidden";
+  };
+</script>
 </html>

@@ -13,7 +13,7 @@
 }
 /*  About Section  */
 #about{
-    padding: 4rem 0 6rem 0;
+    padding: 4rem 0 1rem 0;
     background-color: #020B31;
     font-size: 2rem;
 }
@@ -30,6 +30,25 @@
     transform: rotate(20deg) 
     translateX(.5rem) 
     translateY(-.5rem);
+}
+
+#coffeepopup{
+    visibility: hidden;
+    position: absolute;
+    top:50rem;
+    left:10rem;
+    width:40%;
+    background-color: #71592B;
+    color:#07030C;
+    padding:4rem;
+    border-radius: 3rem;
+    z-index: 2;
+}
+
+#coffee-close{
+    position: relative;
+    top:-1rem;
+    left:-.5rem;
 }
 
 .about-head{
@@ -65,11 +84,30 @@
     translateY(-.5rem);
 }
 
+#stickerpopup{
+    visibility: hidden;
+    position: absolute;
+    top:50rem;
+    right:15rem;
+    width:30%;
+    background-color: #0B280A;
+    color:#A6AEDB;
+    padding:4rem;
+    border-radius: 3rem;
+    z-index: 2;
+}
+
+#sticker-close{
+    position: relative;
+    top:-1rem;
+    left:-.5rem;
+}
+
 #jack {
     width: 10rem;
     transform: rotate(10deg);
     position: absolute;
-    top:75rem;
+    top:80rem;
     right: 5rem;
     transition: .3s;
 }
@@ -78,6 +116,32 @@
     transform: rotate(10deg)
     translateX(-.5rem) 
     translateY(-.5rem);
+}
+
+#jackpopup{
+    visibility: hidden;
+    position: absolute;
+    top:62rem;
+    right:10rem;
+    width:45%;
+    background-color: #2A042F;
+    color:#A6AEDB;
+    padding:4rem;
+    border-radius: 3rem;
+    z-index: 2;
+}
+
+#jack-close{
+    position: relative;
+    top:-1rem;
+    left:-.5rem;
+}
+
+.note{
+    text-align: left;
+    position: relative;
+    right: 30rem;
+    margin-top: 4rem;
 }
 
 @media screen and (max-width: 1300px) {
@@ -98,36 +162,44 @@
     #jack{
         visibility: hidden;
     }
+    .note{
+        visibility: hidden;
+    }
   }
 
 /* Projects Section */
 #projects{
-    padding: 4rem 2rem 6rem 2rem;
+    padding: 4rem 2rem 8rem 2rem;
     background-color: #07030C;
     font-size: 2rem;
 }
+
 .head{
     font-family: "Geostar Fill", serif;
     font-size: 3rem;
     color: #6E68BB;
 }
+
 .project-list{
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 20rem));
     grid-gap: 2rem;
     margin-top: 4rem;
 }
+
 .project{
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
 }
+
 .project img{
     width:20rem;
     border-radius: 1rem;
     display: block;
     transition: .3s;
 }
+
 .layer {
     width: 100%;
     height: 0;
@@ -143,39 +215,53 @@
     flex-direction: column;
     transition: height .5s;
 }
+
 .layer h3{
-    margin: .5rem;
+    margin: .1rem;
 }
+
 .layer p{
     font-size: 1.3rem;
-    margin: 1rem;
+    text-align: center;
+    margin: .5rem 1rem 2rem 1rem;
 }
+
 .layer a{
     font-family: "Geostar Fill", serif;
     font-size: 1.3rem;
     text-decoration:none;
     color: #A6AEDB;
 }
+
+.layer a i{
+    margin-left: .2rem;
+}
+
 .tag{
     background-color:#320808;
     text-align: center;
     font-size: 1rem;
     border-radius: .25rem;
-    margin: .2rem;
-    padding:.3rem;
+    margin: .6rem;
+    padding:.4rem;
 }
+
 .back-end{
     background-color:#320808;
 }
+
 .front-end{
     background-color:#2A042F;
 }
+
 .UI{
     background-color:#0B280A;
 }
+
 .project:hover img{
     transform: scale(1.1);
 }
+
 .project:hover .layer{
     height: 100%;
 }
@@ -183,4 +269,5 @@
 /* Contact Section */
 #contact{
     background-color: #150640;
+    padding: 4rem;
 }
