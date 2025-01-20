@@ -1,4 +1,4 @@
-/*  home page  */
+/*  Home Page  */
 #blurb {
     font-size: 2.75rem;
     margin: 15% 2rem 2.5rem 6%;
@@ -11,7 +11,7 @@
     color: #6E68BB;
     padding-bottom: 12%;
 }
-/*  about section  */
+/*  About Section  */
 #about{
     padding: 4rem 0 6rem 0;
     background-color: #020B31;
@@ -100,13 +100,13 @@
     }
   }
 
-/* projects section */
+/* Projects Section */
 #projects{
     padding: 4rem 2rem 6rem 2rem;
     background-color: #07030C;
     font-size: 2rem;
 }
-.projects-head{
+.head{
     font-family: "Geostar Fill", serif;
     font-size: 3rem;
     color: #6E68BB;
@@ -151,33 +151,36 @@
     margin: 1rem;
 }
 .layer a{
+    font-family: "Geostar Fill", serif;
+    font-size: 1.3rem;
     text-decoration:none;
     color: #A6AEDB;
 }
-.back-end-button{
+.tag{
     background-color:#320808;
     text-align: center;
     font-size: 1rem;
     border-radius: .25rem;
     margin: .2rem;
+    padding:.3rem;
 }
-.front-end-button{
+.back-end{
+    background-color:#320808;
+}
+.front-end{
     background-color:#2A042F;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: .25rem;
-    margin: .2rem;
 }
-.UI-button{
+.UI{
     background-color:#0B280A;
-    text-align: center;
-    font-size: 1rem;
-    border-radius: .25rem;
-    margin: .2rem;
 }
 .project:hover img{
     transform: scale(1.1);
 }
 .project:hover .layer{
     height: 100%;
+}
+
+/* Contact Section */
+#contact{
+    background-color: #150640;
 }
