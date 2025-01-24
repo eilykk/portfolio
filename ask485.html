@@ -4,10 +4,16 @@
   <meta charset="utf-8">
   <meta name="description" content="Kay Kosek, Co-creator of a Search Engine.">
   <meta name="author" content="Kay Kosek">
-  <title>Essentiallee Free</title>
+  <title>Search Engine</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/ask485.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Geostar+Fill&display=swap" rel="stylesheet">
 </head>
@@ -18,6 +24,21 @@
         <a href="index.html"><img src="assets/kay-alt.svg" alt="KAY"></a>
     </div>
   </header>
-  TODO
+  <div class="container">
+    <div class="summary">
+      "Ask485" Search Engine - A scalable search engine similar to Google or Bing
+    </div>
+    <div class="project-date">
+      Created in Fall of 2023.
+    </div>
+    <div class="description">
+      Built a segmented inverted index of web pages using a pipeline of MapReduce programs,
+      an Index server (a REST API app that returns search results in JSON format), and a
+      Search server (a UI that returns search results similar to Google or Bing). <br>
+      Utilized information retrieval concepts such as text analysis (tf-idf) and link analysis
+      (PageRank), parallel data processing with MapReduce, and using a Service-Oriented
+      Architecture to scale dynamic pages and web search.
+    </div>
+  </div>
 </body>
 </html>
