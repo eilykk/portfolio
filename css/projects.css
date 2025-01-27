@@ -1,0 +1,22 @@
+/* standard layout rules for project pages */
+.container{
+    margin: 4rem 2rem;
+    font-size: 2rem;
+}
+
+.project-date{
+    margin: 2rem 0 2rem 0;
+    padding: 1.5rem;
+    border-top-style: solid;    
+    border-top-width: .1rem;
+    border-bottom-style: solid;
+    border-bottom-width: .1rem;
+    border-color: #A6AEDB;
+}
+
+h1{
+    font-family: "Geostar Fill", serif;
+    font-size: 3rem;
+    color: #6E68BB;
+    padding-top: 1.7rem;
+}

@@ -1,19 +1,4 @@
-/* Questo Project Page */
-.container{
-    margin: 4rem 2rem;
-    font-size: 2rem;
-}
-
-.project-date{
-    margin: 2rem 0 2rem 0;
-    padding: 1.5rem;
-    border-top-style: solid;    
-    border-top-width: .1rem;
-    border-bottom-style: solid;
-    border-bottom-width: .1rem;
-    border-color: #A6AEDB;
-}
-
+/* Questo project page */
 .documentation iframe{
     width: 90%;
     height:100rem;
