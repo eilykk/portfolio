@@ -14,6 +14,7 @@ body {
     border-bottom-color: #A6AEDB;
     font-size: 2rem;
     margin-bottom: 1rem;
+    backdrop-filter: blur(.7rem);
 }
 
 .title-logo {

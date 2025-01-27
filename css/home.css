@@ -1,4 +1,8 @@
 /*  Home Page  */
+.opener{
+background-image: linear-gradient(180deg, rgba(255,0,0,0) 80%, #020B31), url("../assets/work.png");
+}
+
 #blurb {
     font-size: 2.75rem;
     margin: 15% 2rem 2.5rem 6%;
@@ -9,7 +13,7 @@
     font-size: 2rem;
     margin-left: 6%;
     color: #6E68BB;
-    padding-bottom: 12%;
+    padding-bottom: 19%;
 }
 /*  About Section  */
 #about{
@@ -22,7 +26,7 @@
     width:25rem;
     transform: rotate(20deg);
     position: absolute;
-    top:54rem;
+    top:57rem;
     transition: .3s;
 }
 
@@ -35,7 +39,7 @@
 #coffeepopup{
     visibility: hidden;
     position: absolute;
-    top:50rem;
+    top:53rem;
     left:10rem;
     width:40%;
     background-color: #71592B;
@@ -73,7 +77,7 @@
     width:13rem;
     transform: rotate(-15deg);
     position: absolute;
-    top:54rem;
+    top:57rem;
     right:8rem;
     transition: .3s;
 }
@@ -87,7 +91,7 @@
 #stickerpopup{
     visibility: hidden;
     position: absolute;
-    top:50rem;
+    top:53rem;
     right:15rem;
     width:30%;
     background-color: #0B280A;
